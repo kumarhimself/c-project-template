@@ -1,1 +1,2 @@
-# c-project-template
+# C Project Template
+Enter project documentation here...
