@@ -2,11 +2,13 @@ CC = gcc
 OUT = build/main.out
 
 default:
+	@clear
 	@echo Building project...
 	@$(CC) src/*.c src/app/*.c -o $(OUT)
 	@echo Project executable is now ready! 
 
 run:
+	@clear
 	@$(OUT)
 
 clean:
